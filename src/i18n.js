@@ -1,6 +1,8 @@
 import i18n from 'i18next';
 import detector from "i18next-browser-languagedetector";
 import { useTranslation, initReactI18next } from "react-i18next";
+import CVeng from './img/CVeng.pdf'
+import CVnl from './img/CVnl.pdf'
 
 i18n
   .use(initReactI18next)
@@ -40,7 +42,8 @@ i18n
           "your-message": "Your Message",
           "home": "Home",
           "about": "About",
-          "exp": "Experience"
+          "exp": "Experience",
+          "cv": CVeng
         }
       },
       nl: {
@@ -76,7 +79,8 @@ i18n
           "your-message": "Uw Bericht",
           "home": "Startpagina",
           "about": "Over Mij",
-          "exp": "Ervaring"
+          "exp": "Ervaring",
+          "cv": CVnl
         }
       }
     },

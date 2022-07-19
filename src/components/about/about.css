@@ -17,9 +17,10 @@
     transform: rotate(10deg);
     transition: var(--transition);
 }
+@media not all and (hover: none) {
 .about__me-image:hover {
     transform: rotate(0);
-}
+}}
 .about__cards {
     display: grid;
     grid-template-columns: repeat(3,1fr);

@@ -17,10 +17,11 @@
     border: 1px solid transparent;
     transition: var(--transition);
 }
+@media not all and (hover: none) {
 .contact__option:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
-}
+}}
 .contact__option-icon {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;

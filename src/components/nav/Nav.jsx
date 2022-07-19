@@ -10,7 +10,7 @@ import Scrollspy from 'react-scrollspy'
 const Nav = () => {
   return (
     <Scrollspy className='nav' items={ ['home', 'about', 'experience', 'portfolio', 'contact'] } currentClassName="is-current">
-      <a href="#home"><AiOutlineHome className='icon'/></a>
+      <a href="#"><AiOutlineHome className='icon'/></a>
       <a href="#about"><AiOutlineUser className='icon'/></a>
       <a href="#experience"><BiBrain className='icon'/></a>
       <a href="#portfolio"><BiBook className='icon'/></a>

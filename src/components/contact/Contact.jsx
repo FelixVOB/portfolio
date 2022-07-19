@@ -40,7 +40,7 @@ const Contact = () => {
             <BsLinkedin className='contact__option-icon'/>
             <h4>LinkedIn</h4>
             <h5>Felix Van Obbergen</h5>
-            <a href="https://www.linkedin.com/in/felix-van-obbergen-2b994923b/" target="_blank" rel="noreferrer">{i18n.t('send')}</a>
+            <a href="https://www.linkedin.com/in/felix-van-obbergen" target="_blank" rel="noreferrer">{i18n.t('send')}</a>
           </article>
         </div>
         {/*END OF CONTACT OPTIONS*/}

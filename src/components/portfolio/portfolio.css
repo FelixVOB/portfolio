@@ -10,10 +10,11 @@
     border: 1px solid transparent;
     transition: var(--transition);
 }
+@media not all and (hover: none) {
 .portfolio__item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
-}
+}}
 .portfolio__item-image {
     border-radius: 1.5rem;
     overflow: hidden;
